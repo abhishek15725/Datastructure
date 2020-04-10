@@ -37,6 +37,7 @@ public class MyLinkedList {
             }
         }
     }
+    //insertAtBeginning
     public void insertAtBeginning(int data){
         Node node=new Node(data);
         node.setNext(head);
